@@ -456,6 +456,10 @@ footer a {
 }
 
 @media screen and (min-width: 1025px) {
+  .nav__list {
+    width: 1024px;
+    margin: 0 auto;
+  }
   .content {
     width: 1024px;
     margin: 0 auto;
@@ -472,5 +476,9 @@ footer a {
   }
   .recent-news {
     width: 60%;
+  }
+  footer ul {
+    width: 1024px;
+    margin: 0 auto;
   }
 }
