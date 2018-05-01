@@ -389,11 +389,12 @@ footer ul {
   width: 100%;
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
 }
 footer li {
-    display: inline-block;
-    margin: 0 1em;
-    width: 30%;
+    margin: 0;
+    width: 33%;
     text-align: center;
 }
 
