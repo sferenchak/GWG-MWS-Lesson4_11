@@ -79,8 +79,8 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 2.5em;
-  margin: 0.5em 0.25em;
+  font-size: 2em;
+  margin: 0.8em 0.25em;
   display: inline-block;
   color: #212121;
   flex: 1 1 auto;
@@ -88,12 +88,12 @@ ul {
 
 #menu {
   font-size: 2.5em;
-  padding: 0.5em 0;
+  padding: 0.5em 1em;
   display: block;
   text-decoration: none;
   width: 100%;
   text-align: center;
-  flex: 1;
+  flex: 0;
 }
 
 /*
@@ -405,11 +405,15 @@ footer a {
 }
 
 @media screen and (min-width: 550px) {
+  body {
+    font-size: 13px;
+  }
   .header__logo {
     height: 72px;
   }
   .header__title {
-    font-size: 4em;
+    font-size: 3em;
+    margin: 0.5em 0.2em;
   }
   #menu {
     display: none;
@@ -464,6 +468,9 @@ footer a {
 }
 
 @media screen and (min-width: 1025px) {
+  .header__inner {
+    width: 1024px;
+  }
   .nav__list {
     width: 1024px;
     margin: 0 auto;
